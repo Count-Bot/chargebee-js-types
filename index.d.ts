@@ -14,6 +14,8 @@ import {
   Layout,
 } from './enums';
 
+export * from './enums';
+
 declare var Chargebee: {
   init(op: InitOptions): void;
   getInstance(): ChargebeeInstance;
